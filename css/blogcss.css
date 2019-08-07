@@ -1,0 +1,82 @@
+/*****-----*****-----*****-----*****
+    12. Blog CSS
+*****-----*****-----*****-----*****/
+.blog-section {
+    padding: 120px 0;
+    background: #F7FAFD;
+}
+.post-box{
+    background: #ffffff;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.post-box > img{
+    width: 100%;
+    height: auto;
+}
+.post-box .post-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.post-box .post-title > a{
+    font-size: 20px;
+    color: #111111;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.post-box .post-title > a:hover{
+    text-decoration: none;
+    color:#00A4EF;
+}
+.post-box .post-description{
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.post-bar{
+    list-style: none;
+    padding:10px 20px;
+    background: #2d2d2d;
+}
+.post-bar > li{
+    display: inline-block;
+    margin: 5px;
+    color:#aaaaaa;
+}
+.post-bar > li > a{
+    color:#aaaaaa;
+    transition:0.3s ease;
+}
+.post-bar > li > a:hover{
+    text-decoration: none;
+    color:#00A4EF;
+}
+.post-bar > li i{
+    margin-right: 7px;
+}
+.blog-section .owl-theme .owl-nav {
+    margin-top: 0;
+}
+.blog-section .owl-theme .owl-nav [class*=owl-] {
+    padding: 5px 10px;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 0;
+}
+.blog-section .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+}
+.blog-section .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+
+
